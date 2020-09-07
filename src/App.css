@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-}
-
+    
+    }
+  
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +13,17 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.column {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+.row-one {
+	padding-top: 13px;
+}
+form .field {
+	margin: auto;
+	max-width: 740px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +33,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
@@ -36,3 +48,4 @@
     transform: rotate(360deg);
   }
 }
+
